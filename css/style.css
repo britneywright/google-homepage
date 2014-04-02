@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 13px;
+  color: #111;
+}
+
+nav {
+  text-align: right;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.grid img, .bell img, .icon img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.share{
+  background-color: #eee;
+  padding: 5px 10px;
+}
+
+.googlelogo {
+   padding-top: 140px;
+}
+
+.googlelogo img {
+  max-width: 275px;
+  display: block;
+  margin: auto;
+}
+
+form {
+  margin: auto;
+  width: 575px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+}
+
+input:focus {
+    border-color: rgb(70,145,210);
+      border-width: 1px;
+  border-style: solid;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  font-family: arial;
+  border: solid 1px #ddd;
+  color: #333;
+  font-weight: 600;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.alert {
+  color: rgb(200,0,0);
+}
+
+footer {
+  color: #777;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(242,242,242);
+  border-top: solid 1px #ddd;
+  font-weight: 500;
+}
+
+.left {
+  float: left;
+  padding: 0 20px;
+  margin-left: 20px;
+}
+
+.right { 
+  float: right;
+  padding: 0 20px;
+}
